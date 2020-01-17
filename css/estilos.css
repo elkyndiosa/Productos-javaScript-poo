@@ -1,0 +1,17 @@
+.message{
+    z-index: 3;
+    max-width: 1000px;
+    font-size: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.message p{
+    margin-bottom: 0px;
+    text-align: center;
+}
+.menu{
+    z-index: 1;
+}

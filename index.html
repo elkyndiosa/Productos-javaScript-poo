@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>app products</title>
+</head>
+<body class="container">
+    <div class="mensaje"></div>
+    <nav class="menu row navbar navbar-dark bg-dark">
+        <h2 class="navbar-brand text"> App of Products</h2>
+    </nav>
+    <div class=" app row">
+        <div  class="card bg-dark text-light text-center col-4 mt-5 h-50">
+            <div class="card-header">
+                <h4>Add Article</h4>
+            </div>
+            <form class="card-body"  id="product-form" >
+                <div class="form-group">
+                    <input type="text" placeholder="Name Product" name="NameProduct" class="form-control" id="name">
+                </div>
+                <div class="form-group mt-3">
+                    <input type="number" placeholder="Price Product" name="priceProduct" class="form-control" id="price">
+                </div>
+                <div class="form-group mt-3">
+                    <input type="number" placeholder="Date Product" name="dateProduct" class="form-control" value="2019" id="date">
+                </div>
+                <input type="submit" value="Add" name="dateProduct" class="btn btn-primary btn-block" id="submit">
+            </form>
+        </div>
+        <div class="list-products col-8 mt-5">
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
